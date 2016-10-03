@@ -19,11 +19,11 @@ public class ex06_105021060 {
 			System.out.println("y="+y);
 		}else{
 			if(x>1){
-				int y=(int)Math.pow(x,3)+3*x-3;
+				int y=2*x+3;
 				System.out.println("y="+y);
 			}else{
 				if(-1<=x&&x<=1){
-					int y=2*x+3;
+					int y=(int)Math.pow(x,3)+3*x-3;
 					System.out.println("y="+y);
 				}
 			}
